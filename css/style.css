@@ -18,6 +18,7 @@ header {
     padding: 15px 10px;
 }
 
+/* NAVIGATION */
 nav ul {
     display: flex;
     flex-direction: column;
@@ -33,3 +34,23 @@ nav ul li a {
     font-size: 1.1em;
     font-weight: bold;
 }
+
+/* MAIN */
+.container {
+    padding: 20px;
+}
+
+.container h1 {
+    font-size: 1.8em;
+}
+
+.grid-container h2 {
+
+}
+
+.box {
+    padding: 20px;
+}
+
+
+/* FOOTER */
