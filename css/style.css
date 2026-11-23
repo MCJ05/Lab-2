@@ -44,8 +44,26 @@ nav ul li a {
     font-size: 1.8em;
 }
 
-.grid-container h2 {
-    font-size: 1.6em;
+.h2 {
+    font-size: 1.6rem;
+}
+
+.h3 {
+    font-size: 1.5em;
+}
+
+.ingress {
+    font-weight: bold;
+}
+
+.quote{
+    font-style: italic;
+    font-size: 1.2em;
+    padding: 10px 0;
+}
+
+p {
+    font-size: 1.1em;
 }
 
 .box {
