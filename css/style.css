@@ -7,6 +7,7 @@
 body {
     margin: 0;
     background-color: rgb(69, 57, 40);
+    line-height: 1.5;
 }
 
 header {
@@ -16,6 +17,12 @@ header {
     align-items: center;
     background-color: rgb(48, 37, 22);
     padding: 15px 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 /* NAVIGATION */
@@ -66,9 +73,15 @@ p {
     font-size: 1.1em;
 }
 
-.box {
-    padding: 20px;
+/* FOOTER */
+
+
+/* TABLET */
+@media(min-width: 800px) {
+
 }
 
-
-/* FOOTER */
+/* DESKTOP */
+@media(min-width: 1000px) {
+    
+}
