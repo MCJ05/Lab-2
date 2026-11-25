@@ -84,7 +84,23 @@ footer {
 
 /* TABLET */
 @media(min-width: 800px) {
+    header nav ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        text-align: center;
+        justify-content: center;
+        gap: 15px;
+    }
 
+    footer nav ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        text-align: center;
+        justify-content: center;
+        gap: 15px;
+    }
 }
 
 /* DESKTOP */
@@ -98,21 +114,11 @@ footer {
         "main-container main-wrapper"
         "footer footer";
         justify-content: space-between;
-        align-items: center;
         gap: 1rem;
     }
 
-    .header {
+    header {
         grid-area: header;
-    }
-
-    .header ul li {
-        display: flex;
-        flex-direction: row;
-        list-style-type: none;
-        text-align: center;
-        justify-content: center;
-        gap: 15px;
     }
 
     .grid-container {
@@ -142,27 +148,21 @@ footer {
     }
 
     .grid-container img {
-        max-width: 50%;
+        max-width: 75%;
+        align-items: center;
     }
 
     .main-container img {
-        max-width: 50%;
+        max-width: 75%;
+        align-items: center;
     }
 
     .main-wrapper img {
-        max-width: 50%;
+        max-width: 75%;
+        align-items: center;
     }
 
     .radbredd-60 {
         max-width: 60ch;
-    }
-
-    footer nav ul {
-        display: flex;
-        flex-direction: row;
-        list-style-type: none;
-        text-align: center;
-        justify-content: center;
-        gap: 15px;
     }
 }
