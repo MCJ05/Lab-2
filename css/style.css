@@ -63,23 +63,24 @@ nav ul li a {
     font-size: 1.8em;
 }
 
-.h2 {
+h2 {
     font-size: 1.6em;
 }
 
-.h3 {
+h3 {
     font-size: 1.5em;
 }
 
 .ingress {
-    font-weight: bold;
+    font-style: italic;
     max-width: 70ch;
     line-height: 1.5;
+    font-size: 1.3rem;
 }
 
 .quote {
     font-style: italic;
-    font-size: 1.2em;
+    font-size: 1.3rem;
     padding: 10px 30px;
     line-height: 1.5;
 }
@@ -87,6 +88,7 @@ nav ul li a {
 .radbredd-70 {
     max-width: 70ch;
     line-height: 1.7;
+    font-size: 1.2rem;
 }
 
 /* FOOTER */
@@ -118,10 +120,9 @@ footer {
 /* DESKTOP */
 @media(min-width: 1000px) {
     /* HEADER */
-    .header {
-        flex-direction: row;
-        justify-content: space-between;
+    header {
         gap: 1rem;
+        align-items: center;
     }
 
     .container {
@@ -129,30 +130,19 @@ footer {
     }
 
     /* MAIN */
-    
     .main-wrapper img {
         max-width: 50%;
-        align-items: center;
     }
 
-    .h2 {
+    h2 {
         text-align: start;
     }
 
-    .h3 {
-        text-align: start;
-    }
-
-    .ingress {
+    h3 {
         text-align: start;
     }
 
     .quote {
         text-align: start;
-    }
-
-    /* FOOTER */
-    .footer {
-        grid-area: footer;
     }
 }
